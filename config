@@ -1,0 +1,54 @@
+[global_config]
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  handle_size = 3
+  hide_from_taskbar = True
+  inactive_color_offset = 1.0
+  title_receive_fg_color = "#8ae234"
+  title_transmit_bg_color = "#fce94f"
+  window_state = maximise
+[keybindings]
+  close_window = <Primary><Shift>q
+  cycle_prev = None
+  edit_tab_title = None
+  edit_terminal_title = None
+  edit_window_title = None
+  go_down = None
+  go_left = None
+  go_next = None
+  go_prev = None
+  go_right = None
+  go_up = None
+  group_all = None
+  group_tab = None
+  hide_window = None
+  layout_launcher = None
+  new_terminator = None
+  new_window = None
+  next_profile = None
+  page_down = <Primary>7
+  page_up = <Primary>8
+  previous_profile = None
+  split_horiz = <Primary>f
+  split_vert = <Primary>e
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#2e3436"
+    background_darkness = 0.75
+    background_type = transparent
+    copy_on_selection = True
+    cursor_color = "#eee9e9"
+    font = Monospace 16
+    foreground_color = "#ffffff"
+    palette = "#000000:#fce94f:#8ae234:#cdcd00:#359efe:#e9b96e:#00cdcd:#ffffff:#000000:#fce94f:#00ff00:#ffff00:#eeeeec:#e9b96e:#00ffff:#ffffff"
+    scrollback_infinite = True
+    show_titlebar = False
+    use_system_font = False
